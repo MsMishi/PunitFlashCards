@@ -1,0 +1,28 @@
+{
+  "name": "punitflashcards",
+  "version": "1.0.0",
+  "description": "more practice",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MsMishi/PunitFlashCards.git"
+  },
+  "author": "Mishi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MsMishi/PunitFlashCards/issues"
+  },
+  "homepage": "https://github.com/MsMishi/PunitFlashCards#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
